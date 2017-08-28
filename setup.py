@@ -2,7 +2,7 @@ from setuptools import setup
 import osuex
 setup(
     name = "osuex",
-    version = "0.0.1",
+    version = "0.0.2",
     author = "Jacob Zipper",
     author_email = "zipper@jacobzipper.com",
     description = ("An osu extraction tool for linux users"),
@@ -14,7 +14,6 @@ setup(
         ]
     },
     install_requires=[
-        'subprocess',
         'click'
 ]
 )
